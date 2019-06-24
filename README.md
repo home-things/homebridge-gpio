@@ -7,11 +7,14 @@ Homebridge GPIO device expose several HomeKit accessories interacting with GPIO
 # Installation
 
 1. Install homebridge using: `npm install -g homebridge`
-2. Install wiringPi or woringOP (look related website)
+2. Install [wiringPi] or [wiringOP] (look related website)
 3. Add rights to homebridge user if running homebridge as systemd service: `sudo usermod -a -G gpio homebridge`
 4. Install this plugin using: `npm install -g homebridge-gpio-device-orpi`
 5. Update your configuration file. See bellow for a sample.
 6. Setup pins (mode, etc.)
+
+[wiringOP]: http://blog-programmista.ru/post/48-ustanovka-wiringop-na-orange-pi-zero.html
+[wiringPi]: http://wiringpi.com/download-and-install/
 
 # Wiring
 
