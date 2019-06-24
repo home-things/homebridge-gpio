@@ -1,7 +1,5 @@
 # homebridge-gpio2
 
-Change: broken node gyp dependencies removed
-
 > Change: pin init functions are not implemented. <br />So you must init them manually. You can use `crontab -e`.
 
 Homebridge GPIO device expose several HomeKit accessories interacting with GPIO
@@ -11,7 +9,7 @@ Homebridge GPIO device expose several HomeKit accessories interacting with GPIO
 1. Install homebridge using: `npm install -g homebridge`
 2. Install [wiringPi] or [wiringOP] (look related website)
 3. Add rights to homebridge user if running homebridge as systemd service: `sudo usermod -a -G gpio homebridge`
-4. Install this plugin using: `npm install -g homebridge-gpio-device-orpi`
+4. Install this plugin using: `npm install -g homebridge-gpio2`
 5. Update your configuration file. See bellow for a sample.
 6. Setup pins (mode, etc.)
 

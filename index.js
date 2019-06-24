@@ -18,7 +18,7 @@ wpi = {
 }
 
 module.exports = function (homebridge) {
-	console.log("homebridge-gpio-device API version: " + homebridge.version);
+	console.log("homebridge-gpio2 API version: " + homebridge.version);
 
 	// Accessory must be created from PlatformAccessory Constructor
 	Accessory = homebridge.platformAccessory;
@@ -29,7 +29,7 @@ module.exports = function (homebridge) {
 	UUIDGen = homebridge.hap.uuid;
 	Types = homebridge.hapLegacyTypes;
 
-	homebridge.registerAccessory("homebridge-gpio-device", "GPIODevice", DeviceAccesory);
+	homebridge.registerAccessory("homebridge-gpio2", "GPIODevice", DeviceAccesory);
 }
 
 function DeviceAccesory(log, config) {
