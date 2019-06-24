@@ -3,8 +3,8 @@ var { execSync } = require('child_process');
 
 // var wpi = require('wiring-op-zero');
 wpi = {
-	HIGH: true,
-	LOW: false,
+	HIGH: 1,
+	LOW: 0,
 	digitalRead(pin) {
 		return execSync(`gpio read ${pin}`, { encoding: 'utf8' });
 	},
