@@ -221,7 +221,9 @@ function DigitalOutput(accesory, log, config) {
 	this.OFF_STATE = 0;
 
 	// wpi.pinMode(this.pin, wpi.OUTPUT);
-	wpi.digitalWrite(this.pin, this.initState ? this.OUTPUT_ACTIVE : this.OUTPUT_INACTIVE);
+
+	// turns on / off unexptectedly
+	// wpi.digitalWrite(this.pin, this.initState ? this.OUTPUT_ACTIVE : this.OUTPUT_INACTIVE);
 
 	// if (this.inputPin) {
 	// 	// wpi.pinMode(this.inputPin, wpi.INPUT);
