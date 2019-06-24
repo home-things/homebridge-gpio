@@ -9,7 +9,7 @@ wpi = {
 		return execSync(`gpio read ${pin}`, { encoding: 'utf8' });
 	},
 	digitalWrite(pin, val) {
-		return execSync(`gpio read ${pin} ${val}`, { encoding: 'utf8' });
+		return execSync(`gpio write ${pin} ${val}`, { encoding: 'utf8' });
 	},
 	pullUpDnControl() { console.error(new Error('not implemented yet')) },
 	pinMode() { console.error(new Error('not implemented yet')) },
