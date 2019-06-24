@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-gpio-device-orpi",
+  "name": "homebridge-gpio",
   "version": "0.4.8",
   "description": "Homebridge plugin exposing devices plugged on GPIO",
   "main": "index.js",
@@ -9,16 +9,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/a-x-/homebridge-gpio-device-orpi.git"
+    "url": "git://github.com/a-x-/homebridge-gpio"
   },
   "bugs": {
-    "url": "http://github.com/a-x-/homebridge-gpio-device-orpi/issues"
+    "url": "http://github.com/a-x-/homebridge-gpio/issues"
   },
   "engines": {
     "node": ">=10",
     "homebridge": ">=0.2.0"
   },
-  "homepage": "https://github.com/a-x-/homebridge-gpio-device-orpi#readme",
+  "homepage": "https://github.com/a-x-/homebridge-gpio#readme",
   "author": "Romain DUBOC",
   "license": "ISC",
   "dependencies": {}
