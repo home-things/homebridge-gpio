@@ -1,4 +1,6 @@
-# homebridge-gpio-device-orpi
+# homebridge-gpio2
+
+Change: broken node gyp dependencies removed
 
 > Change: pin init functions are not implemented. <br />So you must init them manually. You can use `crontab -e`.
 
